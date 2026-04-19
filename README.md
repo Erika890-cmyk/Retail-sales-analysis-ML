@@ -1,64 +1,40 @@
 # 🛒 Retail Sales Analysis and Prediction
+Retail Sales Analysis and Prediction
 
-## 📌 Project Overview
-This project focuses on analyzing retail sales data and predicting future sales using machine learning techniques. Multiple datasets were combined to understand the impact of different factors on sales.
+📌 Project Overview
 
----
+This project focuses on analyzing retail sales data using multiple datasets and building a machine learning model to predict future sales. The goal is to understand how different factors affect business performance.
 
-## 🎯 Objective
-To analyze sales patterns and build a predictive model using features like temperature, fuel price, CPI, and unemployment.
+🎯 Objective
 
----
+To analyze sales patterns and build a predictive model using factors like temperature, fuel price, CPI, and unemployment.
 
-## 📂 Dataset Used
-- Sales Dataset
-- Stores Dataset
-- Features Dataset
+📂 Dataset Information
+Sales Dataset: Contains weekly sales data
+Stores Dataset: Contains store type and size
+Features Dataset: Contains external factors like temperature, fuel price, CPI, and unemployment
+⚙️ Tools Used
 
----
+Python
+Pandas, NumPy
+Matplotlib, Seaborn
+Scikit-learn
+Joblib
 
-## ⚙️ Technologies Used
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
+📊 Results
 
----
+After testing multiple models, Random Forest performed better in predicting sales. The model was able to capture patterns and provide reasonably accurate predictions.
 
-## 📊 Project Workflow
-1. Data Loading  
-2. Data Merging  
-3. Data Cleaning  
-4. Data Visualization  
-5. Model Building  
-6. Model Evaluation  
-7. Model Saving  
+💾 Model
 
----
+The trained model is saved as model.pkl and can be reused for future predictions without retraining.
 
-## 🤖 Machine Learning Models
-- Linear Regression  
-- Decision Tree  
-- Random Forest (Best Model)
+🚀 Future Scope
 
----
+Improve accuracy using advanced models
+Deploy the model using web applications
+Use real-time data for better predictions
 
-## 📈 Results
-Random Forest model performed better and provided good prediction accuracy.
+👩‍💻 Author
 
----
-
-## 💾 Model Saving
-The trained model is saved using `joblib` as `model.pkl` for reuse.
-
----
-
-## 🚀 Future Scope
-- Improve accuracy using advanced models  
-- Deploy model using web applications  
-- Use real-time data  
-
----
-
-## 👩‍💻 Author
 Erika Binu
