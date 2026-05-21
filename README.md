@@ -76,4 +76,5 @@ The repository now includes a full-stack interactive dashboard to visualize sale
 
 ---
 **Author**: Erika Binu
+
 **Type**: Supervised Machine Learning Capstone - Regression Analysis
